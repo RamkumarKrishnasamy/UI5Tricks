@@ -1,0 +1,5 @@
+	<!--To increase the comboBox items to 200 - by default is 100-->
+
+<ComboBox id="requestTypeCB" items="{ path: '/RequestTypeSet',length: 200}">
+										<core:ListItem key="{ReqTypeText}" text="{ReqTypeText}"/>
+									</ComboBox>
